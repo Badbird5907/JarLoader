@@ -17,4 +17,5 @@ tasks.jar {
     manifest {
         attributes["Premain-Class"] = "dev.badbird.jarloader.JarLoader"
     }
+    archiveFileName.set("JarLoader.jar")
 }
